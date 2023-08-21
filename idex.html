@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Clculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container w-50  ">
+
+        <div class="card bg-light text-dark m-5 shadow-sm">
+            <div class="card-header text-center shadow-sm" id="card-header">
+                Age Calculator
+            </div>
+
+            <div class="card-body bg-dark text-light">
+
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <h4 class="text-center">Daye</h4>
+                        <input type="number" class="form-control mt-3 text-secondary " id="Day" placeholder="dd">
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="text-center">Month</h4>
+                        <input type="number" class="form-control mt-3 text-secondary" id="Month" placeholder="mm">
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="text-center">Year</h4>
+                        <input type="number" class="form-control mt-3 text-secondary" id="Year" placeholder="yyyy">
+                    </div>
+                    <button class="btn btn-outline-light text-center mt-5 mb-3" id="btn" onclick="CalculetAge()">Calculate</button>
+                    <div id="age" class="text text-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripte.js"></script>
+</body>
+
+</html>
